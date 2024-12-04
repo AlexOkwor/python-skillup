@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MyContract/MyContract.sol": "MyContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MyContract/MyContract.sol": {
+			"keccak256": "0x9bfcc628191b6406b7d24f16c587ccbb052703b56b3a8d488857e2ea4e21254e",
+			"urls": [
+				"bzz-raw://6b8e3ea56b5a8422bfade37b8a62482759e1053c9377a7ee1d95cb93ed9078af",
+				"dweb:/ipfs/QmVN652DDWnMn4GLatJZZC1nsUrQCkZoC8RLbcAxA8NGHD"
+			]
+		}
+	},
+	"version": 1
+}
